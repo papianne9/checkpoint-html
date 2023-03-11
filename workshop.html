@@ -1,55 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>workshop html</title>
+    <title>Bienvenu sur mon workshop html</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>workshop html</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="entete">
       <!--navigation-->
       <nav>
-        <a href="workshop html">WORKSHOP HTML</a>
-        <ul>
+        <ul class="navbar">
+          <h2><a href="#logo">Bienvenu Sur Mon Workshop html</a></h2>
           <div>
-            <li><a href="acceuil">Acceuil</a></li>
+            <h2>
+              <li><a href="#acceui">Acceuil</a></li>
+            </h2>
           </div>
-          <br />
           <div>
-            <li><a href="#à propos">A PROPOS</a></li>
+            <h2>
+              <li><a href="#à propos">A PROPOS</a></li>
+            </h2>
           </div>
-          <br />
           <div>
-            <li><a href="#travail">TRAVAIL</a></li>
+            <h2>
+              <li><a href="#travail">TRAVAIL</a></li>
+            </h2>
           </div>
-          <br />
           <div>
-            <li><a href="#cv">CV</a></li>
+            <h2>
+              <li><a href="#cv">CV</a></li>
+            </h2>
           </div>
-          <br />
           <div>
-            <li><a href="#contact">CONTACT</a></li>
+            <h2>
+              <li><a href="#contact">CONTACT</a></li>
+            </h2>
           </div>
         </ul>
       </nav>
     </header>
+    <br />
+    <br />
+    <br />
+    <br />
     <!--formulaire-->
     <main>
       <iframe
         width="560"
-        height="315"
+        height="300"
         src="https://www.youtube.com/embed/zcTFG_F0FRs"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen
       ></iframe>
+      <br /><br />
       <section>
         <a name="à propos"></a>
-        <h1>A PROPOS:</h1>
+        <h3>A PROPOS:</h3>
+        <br />
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br />
           sed to do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -62,16 +74,36 @@
           officia deserunt mollit anim id est laborum.
         </div>
       </section>
+      <br />
       <section>
         <a name="travail"></a>
-        <h1>TRAVAIL:</h1>
+        <h3>TRAVAIL:</h3>
         <div>
-          <video src="CYTH5250.MP4" height="200">ma video width=300</video>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/oE_tjQCtOVk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/jgH6qNF8Jn4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
         </div>
       </section>
       <section>
         <a name="cv"></a>
-        <h1>CV:</h1>
+        <br />
+        <h3>CV:</h3>
         <div>
           <h3><label>profil</label></h3>
         </div>
@@ -81,41 +113,42 @@
         <div>
           <h3><label>expérience personnelle</label></h3>
         </div>
-        <div></div>
       </section>
+      <br />
       <section>
         <a name="contact"></a>
-        <h1>CONTACT:</h1>
+        <h3>CONTACT:</h3>
       </section>
       <section>
         <form>
           <div>
-            <h3><label>nom:</label></h3>
+            <h4><label>nom:</label></h4>
             <input type="text" />
           </div>
           <br />
           <div>
-            <h3><label>email:</label></h3>
+            <h4><label>email:</label></h4>
             <input type="text" />
           </div>
           <br />
           <div>
-            <h3><label>mot de passe:</label></h3>
+            <h4><label>mot de passe:</label></h4>
             <input type="text" />
           </div>
         </form>
       </section>
+      <br />
       <!--image-->
       <h6><img src="papi.png" height="100" alt="mon image" width="100" /></h6>
     </main>
 
     <footer>
       <div>
-        <h1>
+        <h4>
           <div class="copyright workshop html @2023">
             copyright WORKSHOP.HTML @2023
           </div>
-        </h1>
+        </h4>
       </div>
     </footer>
   </body>
